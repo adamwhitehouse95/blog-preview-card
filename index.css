@@ -143,3 +143,12 @@ main {
     line-height: 150%;
     font-weight: bold;
 }
+
+.div-main:hover {
+    box-shadow: 16px 16px;
+    transition: 0.5s;
+}
+.div-main:hover .text-html {
+    color: #f4d04e;
+    transition: 0.5s;
+}
