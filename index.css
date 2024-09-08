@@ -125,3 +125,17 @@ main {
     letter-spacing: 0rem;
     margin-bottom: 24px;
 }
+
+.div-author {
+    display: flex;
+    align-items: center;
+}
+
+.div-author-name {
+    margin-left: 12px;
+    color: #111;
+    font-size: 0.9rem;
+    letter-spacing: 0rem;
+    line-height: 150%;
+    font-weight: bold;
+}
