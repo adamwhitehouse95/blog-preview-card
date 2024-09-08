@@ -78,32 +78,26 @@ main {
 .div-main {
     background-color: #fff;
     border-radius: 20px;
-    max-width: 384px;
+    max-width: 24rem;
     display: flex;
     flex-direction: column;
     padding: 24px;
     border: 1px solid #111;
     box-shadow: 8px 8px;
-    min-width: 327px;
-    min-height: 501px;
-    flex-shrink: 1;
-    flex-wrap: wrap;
+    position: relative;
 }
 
 .text-learning {
     background-color: #f4d04e;
-    width: 82px;
-    height: 29px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: bold;
     font-size: 0.9rem;
     letter-spacing: 0rem;
     line-height: 150%;
     color: #111;
-    margin: 12px 0;
+    margin: 12px 260px 12px 0;
     border-radius: 4px;
+    padding: 5px;
+    text-align: center;
 }
 
 .text-published {
@@ -151,4 +145,15 @@ main {
 .div-main:hover .text-html {
     color: #f4d04e;
     transition: 0.5s;
+}
+a {
+  text-decoration: none;
+}
+a::before {
+  top: -1px;
+  right: -1px;
+  left: -1px;
+  bottom: -1px;
+  position: absolute;
+  content: "";
 }
