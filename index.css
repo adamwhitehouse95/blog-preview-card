@@ -87,6 +87,7 @@ main {
     min-width: 327px;
     min-height: 501px;
     flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 .text-learning {
